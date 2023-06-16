@@ -1,0 +1,132 @@
+body{
+    background-color: white;
+}
+header {
+    background-color: black;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+}
+.container-img {
+    background: white;
+    padding: 5px;
+}
+p {
+    display: inline-block;
+    vertical-align:top;
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+   
+}
+.titulo {
+    font-family: 'Dosis', sans-serif;
+}
+.img2 {
+        width: 50%;
+        padding-top: 10px;
+    }
+
+
+.footer-container{
+    background-color: rgb(96, 31, 80);
+}
+footer{
+    height: 50px; 
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.carousel-inner img{
+    width:50%;
+    height: 70vh;
+margin-bottom: 20px;
+   }
+   .card img{
+       height: 10vh;
+   }
+
+   .titulo-Eventos {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Orbit', sans-serif;
+   }
+   .tituloseliga  {
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Playfair', serif;
+
+   }
+   .tituloseliga h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+   }
+
+   .containerForm {
+   padding-left:20%;
+  }
+ .conteudo3{
+    justify-content: center;
+ }
+  .conteudo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fundo{
+    background-color:black;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+   margin: 2%;
+    background-color: black;
+}
+
+.botao {
+    
+    justify-content: center;
+    align-items: center;
+}
+
+@media  screen and (max-width: 768px){
+   
+    header nav{
+        display:none
+    }
+    .conteudo2{
+        flex-direction: column;
+       padding:10px;
+       align-items:center; 
+    }
+    .img2{
+        width:80%;
+       
+    }
+    .texto2{
+        width:95%;
+        margin-top:45px;
+        display:flex;
+        flex-direction: column;
+        height: 430px;
+        justify-content: space-between;
+    }
+    .texto2 p{
+        font-size: 40px;
+    }
+}
