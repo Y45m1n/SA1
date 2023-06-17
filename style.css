@@ -75,10 +75,9 @@ font-family: 'Playfair', serif;
    
     display: flex;
     justify-content:center;
+    
 }
-   .containerForm {
-   padding-left:20%;
-  }
+ 
  .conteudo3{
     justify-content: center;
  }
@@ -94,12 +93,17 @@ font-family: 'Playfair', serif;
 }
 
 .card{
-    display: flex;
+   
     justify-content: center;
     align-items: center;
     padding-top: 20px;
-   margin: 2%;
+   margin: 6%;
     background-color: black;
+}
+.container-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .botao {

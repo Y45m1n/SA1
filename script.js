@@ -25,19 +25,17 @@ function cadastroEvento(){
 }
 function login(){
     let nomeEmail = document.getElementById("nomeEmail").value;
-    let nomeEmail2 = document.getElementById("nomeEmail").value;
+    let nomeEmail2 = document.getElementById("nomeEmail2").value;
     let senha = document.getElementById("senha").value;
     let verificacao
-    let verificacaoEmail
-    verificacao= nomeEmail && senha && nomeEvento && dataEvento && nMaxParticipantes
-    verificacaoEmail= nomeEmail==nomeEmail2
+    verificacao= nomeEmail && senha && nomeEmail2
     verificacao==true
-    verificacaoEmail==false
+    
     
 
     if (verificacao==false){
         alert("Verifique se todos os campos estão preenchidos corretamente")
-     }  else if (verificacaoEmail==true){
+     }  else if (nomeEmail==nomeEmail2){
         alert("O login foi realizado")
      }else {
         alert("Seu email está incorreto")
