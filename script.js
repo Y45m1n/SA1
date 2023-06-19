@@ -46,6 +46,33 @@ function login(){
 
 }
 
+function cadastro(){
+    let nomeCompleto = document.getElementById("nomeCompleto").value;
+    let nomeEmail3 = document.getElementById("nomeEmail3").value;
+    let nomeEmail4 = document.getElementById("nomeEmail4").value;
+    let senha2 = document.getElementById("senha2").value;
+
+let verificacao
+    verificacao= nomeCompleto && nomeEmail3 &&  nomeEmail4 && senha2 
+    verificacao==true
+
+
+    if (verificacao==false){
+        alert("Verifique se todos os campos estão preenchidos corretamente")
+     }   else if (nomeEmail3==nomeEmail4){
+            alert("Seu cadastro foi realizado")
+            
+        }  else {
+            alert("Seu email está incorreto")
+        
+        } 
+
+
+
+}
+function carrinho(){
+  alert("O Ingresso foi adicionado ao carrinho")
+}
 
     
    
